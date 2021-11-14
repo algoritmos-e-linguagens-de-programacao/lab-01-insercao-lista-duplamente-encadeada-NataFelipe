@@ -27,7 +27,7 @@ class Lista:
 
         self.tail.next = node
         node.prev = self.tail
-
+        self.tail = node
 
     def add(self, node):
         """
